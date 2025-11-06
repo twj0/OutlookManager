@@ -2,7 +2,7 @@
 
 # 设置默认值
 HOST=${HOST:-"0.0.0.0"}
-PORT=${PORT:-8000}
+PORT=${PORT:-24680}
 WORKERS=${WORKERS:-1}
 
 # 创建必要的目录
@@ -23,4 +23,4 @@ echo "   - 工作进程: $WORKERS"
 echo "   - 数据目录: /app/data"
 
 # 启动应用
-exec python main.py 
+exec python main.py
